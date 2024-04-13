@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #audio-controls {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vincent Audio Player</h1>
+    <div id="audio-controls">
+        <audio id="audio" controls>
+            <source src="AudioRecording.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <script>
+        // JavaScript to control audio playback
+        const audio = document.getElementById('audio');
+    </script>
+</body>
+</html>
